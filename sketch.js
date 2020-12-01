@@ -45,7 +45,7 @@ background("White");
     }
   if(FoodGroup.isTouching(monkey))
     {
-      destroy(banana)
+      destroy(FoodGroup)
     }
   monkey.velocityY=monkey.velocityY+0.8;
   monkey.collide(ground);
