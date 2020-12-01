@@ -43,7 +43,7 @@ background("White");
       monkey.velocityY=-12;
     
     }
-  if(FoodGroup.isTouching(monkey))
+  if(obstacleGroup.isTouching(monkey))
     {
       destroy(FoodGroup)
     }
